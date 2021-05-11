@@ -333,7 +333,7 @@ class DataViews(object):
         :return:
         """
         self.__basePath = (
-            self.__baseClient.uri_API + "-preview"
+            self.__baseClient.uri_API + 
             "/Tenants/{tenant_id}/Namespaces/{namespace_id}"
         )
 
