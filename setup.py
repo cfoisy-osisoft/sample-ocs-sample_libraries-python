@@ -1,6 +1,6 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setuptools.setup(
@@ -18,10 +18,11 @@ setuptools.setup(
         'requests==2.25.1',
         'python-dateutil==2.8.1'
     ],
+    python_requires='>=3.9',
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: Apache Software License",
-        "Operating System :: OS Independent",
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: Apache Software License',
+        'Operating System :: OS Independent',
     ],
     python_requires=">=3.6",
 )
