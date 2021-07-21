@@ -1,12 +1,35 @@
 # Version History
 
+## 0.2.3_preview / 2021-05-07
+
+- Fix typo in DataView.py
+
+## 0.2.2_preview / 2021-05-05
+
+- Add comprehensive handling for optional enumeration properties
+
+## 0.2.1_preview / 2021-05-03
+
+- Add check for null SdsTypeProperty InterpolationMode
+
+## 0.2.0_preview / 2021-04-23
+
+- Major refactor of classes and parameters, including many breaking changes
+- Added OCS Assets models and API endpoints
+- Added type hints for all API models and endpoints
+
+## 0.1.18_preview / 2021-03-24
+
+- Updated pipeline to use internal agent pool
+- Updated pipeline to reference main branch
+
 ## 0.1.17_preview / 2021-02-24
 
 - Updated ocsclients and edsclients to expose the baseclient
 
 ## 0.1.16_preview / 2021-01-26
 
-- Updated versions and readme.  0.1.15 skipped due to pipeline issues
+- Updated versions and readme. 0.1.15 skipped due to pipeline issues
 
 ## 0.1.14_preview / 2021-01-25
 
