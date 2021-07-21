@@ -20,6 +20,7 @@ target/
 release.properties
 .releaseBackup
 .vscode/
+.ipynb_checkpoints/
 
 # External tool builders
 .externalToolBuilders/
